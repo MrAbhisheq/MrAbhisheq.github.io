@@ -2,30 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Unity WebGL Projects</title>
+  <title>My Unity Projects</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #1e1e2f;
+      font-family: 'Segoe UI', sans-serif;
+      background: #121212;
       color: #fff;
       display: flex;
       flex-direction: column;
       align-items: center;
-      min-height: 100vh;
       padding: 40px 20px;
     }
 
     h1 {
       font-size: 2.5rem;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       text-align: center;
     }
 
     p {
       font-size: 1rem;
-      color: #ccc;
+      color: #aaa;
       margin-bottom: 40px;
       text-align: center;
       max-width: 600px;
@@ -39,71 +38,103 @@
     }
 
     .card {
-      background: #2e2e40;
+      background: #1f1f2e;
       padding: 20px;
       border-radius: 12px;
-      width: 280px;
+      width: 300px;
       text-align: center;
       transition: transform 0.3s, box-shadow 0.3s;
       box-shadow: 0 0 8px rgba(0,0,0,0.3);
     }
 
     .card:hover {
-      transform: translateY(-8px);
+      transform: translateY(-6px);
       box-shadow: 0 12px 20px rgba(0,0,0,0.5);
     }
 
     .card h2 {
-      font-size: 1.4rem;
-      margin-bottom: 10px;
       color: #66fcf1;
+      font-size: 1.3rem;
     }
 
-    .card a {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 10px 18px;
+    .platform {
+      font-size: 0.85rem;
+      color: #ccc;
+      margin: 8px 0;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 12px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 8px 14px;
       background: #45a29e;
       color: white;
+      border: none;
       border-radius: 8px;
       text-decoration: none;
+      font-size: 0.9rem;
       transition: background 0.2s;
     }
 
-    .card a:hover {
+    .btn:hover {
       background: #379694;
     }
 
     footer {
       margin-top: 60px;
       font-size: 0.9rem;
-      color: #888;
+      color: #777;
     }
   </style>
 </head>
 <body>
-  <h1>🎮 Unity WebGL Projects</h1>
-  <p>Welcome to my interactive portfolio of Unity 3D WebGL builds. Click on any project to play it in your browser.</p>
+
+  <h1>🎮 My Unity Projects</h1>
+  <p>Explore my unity project development work across platforms like WebGL, Android, and PC. Play online or download directly.</p>
 
   <div class="projects">
+
+    <!-- Project Card Example -->
     <div class="card">
       <h2>3D Typing Test</h2>
-      <p>A fun 1-minute typing challenge with 3D letters.</p>
-      <a href="https://mrabhisheq.github.io/Simple-3DTypingTest/" target="_blank">Launch</a>
+      <div class="platform">Platform: WebGL</div>
+      <div class="buttons">
+        <a class="btn" href="https://mrabhisheq.github.io/Simple-3DTypingTest/" target="_blank">Launch</a>
+        <a class="btn" href="ProjectInfo/3d-typing-test.html" target="_blank">More Info</a>
+      </div>
     </div>
-    
-    <!-- Add more projects below -->
-    <!--
+
+    <!-- Example: Android Project -->
     <div class="card">
-      <h2>VR Gas Plant</h2>
-      <p>Interactable virtual gas plant in WebXR/VR (in development).</p>
-      <a href="https://mrabhisheq.github.io/vr-gas-plant/" target="_blank">Launch</a>
+      <h2>Color Match Puzzle</h2>
+      <div class="platform">Platform: Android</div>
+      <div class="buttons">
+        <a class="btn" href="https://example.com/ColorMatch.apk" download>Download</a>
+        <a class="btn" href="color-match.html" target="_blank">More Info</a>
+      </div>
     </div>
-    -->
+
+    <!-- Example: PC Game -->
+    <div class="card">
+      <h2>Physics Platformer</h2>
+      <div class="platform">Platform: PC (Windows)</div>
+      <div class="buttons">
+        <a class="btn" href="https://example.com/PhysicsPlatformer.zip" download>Download</a>
+        <a class="btn" href="physics-platformer.html" target="_blank">More Info</a>
+      </div>
+    </div>
+
   </div>
 
   <footer>
-    © 2025 MrAbhisheq | Built with ❤️ using Unity 3D and GitHub Pages
+    © 2025 MrAbhisheq | Unity Developer Portfolio
   </footer>
+
 </body>
 </html>
