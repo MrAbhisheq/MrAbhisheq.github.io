@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3D Typing Test - Project Info</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #1e1e2e;
+      color: #ffffff;
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      color: #66fcf1;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #ccc;
+    }
+
+    a {
+      color: #45a29e;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 16px;
+      background-color: #45a29e;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    .button:hover {
+      background-color: #379694;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>3D Typing Test</h1>
+  <p><strong>Platform:</strong> WebGL</p>
+  <p><strong>Date:</strong> June 2025</p>
+
+  <p>
+    This is a simple 3D Typing Test made in Unity 3D. The user selects a paragraph and begins a one-minute typing challenge. Letters appear in 3D space and react visually as you type. The game gives a fun and slightly gamified way to practice typing speed.
+  </p>
+
+  <p><strong>Features:</strong></p>
+  <ul>
+    <li>Selectable paragraphs</li>
+    <li>1-minute timed test</li>
+    <li>Floating 3D alphabet letters</li>
+    <li>WebGL browser play (no install)</li>
+  </ul>
+
+  <a class="button" href="https://mrabhisheq.github.io/Simple-3DTypingTest/" target="_blank">Play Now</a>
+
+</body>
+</html>
