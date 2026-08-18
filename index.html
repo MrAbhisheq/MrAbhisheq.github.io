@@ -2,139 +2,84 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Unity Projects</title>
+  <title>My Unity Projects | Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: #121212;
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 40px 20px;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-      text-align: center;
-    }
-
-    p {
-      font-size: 1rem;
-      color: #aaa;
-      margin-bottom: 40px;
-      text-align: center;
-      max-width: 600px;
-    }
-
-    .projects {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-    }
-
-    .card {
-      background: #1f1f2e;
-      padding: 20px;
-      border-radius: 12px;
-      width: 300px;
-      text-align: center;
-      transition: transform 0.3s, box-shadow 0.3s;
-      box-shadow: 0 0 8px rgba(0,0,0,0.3);
-    }
-
-    .card:hover {
-      transform: translateY(-6px);
-      box-shadow: 0 12px 20px rgba(0,0,0,0.5);
-    }
-
-    .card h2 {
-      color: #66fcf1;
-      font-size: 1.3rem;
-    }
-
-    .platform {
-      font-size: 0.85rem;
-      color: #ccc;
-      margin: 8px 0;
-    }
-
-    .buttons {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      margin-top: 12px;
-      flex-wrap: wrap;
-    }
-
-    .btn {
-      padding: 8px 14px;
-      background: #45a29e;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      text-decoration: none;
-      font-size: 0.9rem;
-      transition: background 0.2s;
-    }
-
-    .btn:hover {
-      background: #379694;
-    }
-
-    footer {
-      margin-top: 60px;
-      font-size: 0.9rem;
-      color: #777;
-    }
-  </style>
+  <meta name="description" content="Unity developer portfolio featuring WebGL, Android, and PC projects.">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <h1>🎮 My Unity Projects</h1>
-  <p>Explore my unity project development work across platforms like WebGL, Android, and PC. Play online or download directly.</p>
+  <div class="container">
 
-  <div class="projects">
-
-    <!-- Project Card Example -->
-    <div class="card">
-      <h2>3D Typing Test</h2>
-      <div class="platform">Platform: WebGL</div>
-      <div class="buttons">
-        <a class="btn" href="https://mrabhisheq.github.io/Simple-3DTypingTest/" target="_blank">Launch</a>
-        <a class="btn" href="ProjectInfo/3d-typing-test.html">More Info</a>
-      </div>
+    <div class="header">
+      <h1>🎮 My Unity Projects</h1>
+      <p class="subtitle">
+        Explore my Unity development work across platforms like WebGL, Android, and PC.
+        Play online or download directly.
+      </p>
     </div>
 
-    <!-- Example: Android Project -->
-    <div class="card">
-      <h2>Car Configurator 3D</h2>
-      <div class="platform">Platform: WebGL</div>
-      <div class="buttons">
-        <a class="btn" href="https://example.com/ColorMatch.apk" download>Download</a>
-        <a class="btn" href="color-match.html">More Info</a>
+    <div class="projects">
+
+      <!-- Project: 3D Typing Test -->
+      <div class="card">
+        <h2>3D Typing Test</h2>
+        <div class="tags">
+          <span class="tag">WebGL</span>
+          <span class="tag">Unity</span>
+        </div>
+        <p class="tagline">A gamified typing speed test with floating 3D letters and timed challenges.</p>
+        <div class="buttons">
+          <a class="btn" href="https://mrabhisheq.github.io/Simple-3DTypingTest/" target="_blank">Launch</a>
+          <a class="btn btn-outline" href="ProjectInfo/3d-typing-test.html">More Info</a>
+        </div>
       </div>
+
+      <!-- Project: Car Configurator 3D -->
+      <div class="card">
+        <h2>Car Configurator 3D</h2>
+        <div class="tags">
+          <span class="tag">WebGL</span>
+          <span class="tag">Addressables</span>
+        </div>
+        <p class="tagline">Multi-brand 3D car configurator with real-time customization and interactive camera modes.</p>
+        <div class="buttons">
+          <a class="btn" href="https://example.com/CarConfigurator3D" target="_blank">Launch</a>
+          <a class="btn btn-outline" href="ProjectInfo/car-configurator-3d.html">More Info</a>
+        </div>
+      </div>
+
+      <!--
+        =========================================================
+        HIDDEN PROJECT TEMPLATE — copy this block for new projects
+        1. Duplicate the <div class="card"> ... </div> block below.
+        2. Remove the surrounding comment tags (<!-- and -->) on your copy.
+        3. Update title, tags, tagline, links.
+        4. Duplicate ProjectInfo/template.html, rename it, and edit content.
+        =========================================================
+
+      <div class="card">
+        <h2>New Project Title</h2>
+        <div class="tags">
+          <span class="tag">Platform</span>
+          <span class="tag">Tech</span>
+        </div>
+        <p class="tagline">Short one-line description of the project.</p>
+        <div class="buttons">
+          <a class="btn" href="LIVE_LINK_HERE" target="_blank">Launch</a>
+          <a class="btn btn-outline" href="ProjectInfo/new-project.html">More Info</a>
+        </div>
+      </div>
+
+      -->
+
     </div>
 
-    <!-- Example: PC Game -->
-    <!--<div class="card">
-      <h2>Physics Platformer</h2>
-      <div class="platform">Platform: PC (Windows)</div>
-      <div class="buttons">
-        <a class="btn" href="https://example.com/PhysicsPlatformer.zip" download>Download</a>
-        <a class="btn" href="physics-platformer.html" target="_blank">More Info</a>
-      </div>
-    </div>-->
+    <footer>
+      © 2025 MrAbhisheq | Unity Developer Portfolio
+    </footer>
 
   </div>
-
-  <footer>
-    © 2025 MrAbhisheq | Unity Developer Portfolio
-  </footer>
 
 </body>
 </html>
