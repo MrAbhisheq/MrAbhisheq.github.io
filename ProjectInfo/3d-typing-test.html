@@ -4,65 +4,77 @@
   <meta charset="UTF-8">
   <title>3D Typing Test - Project Info</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #1e1e2e;
-      color: #ffffff;
-      padding: 40px 20px;
-      max-width: 800px;
-      margin: auto;
-    }
-
-    h1 {
-      font-size: 2.2rem;
-      color: #66fcf1;
-    }
-
-    p {
-      font-size: 1rem;
-      line-height: 1.6;
-      color: #ccc;
-    }
-
-    a {
-      color: #45a29e;
-    }
-
-    .button {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 10px 16px;
-      background-color: #45a29e;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-    }
-
-    .button:hover {
-      background-color: #379694;
-    }
-  </style>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
-  <h1>3D Typing Test</h1>
-  <p><strong>Platform:</strong> WebGL</p>
-  <p><strong>Date:</strong> June 2025</p>
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="../index.html">← Back to Portfolio</a>
+    </div>
 
-  <p>
-    This is a simple 3D Typing Test made in Unity 3D. The user selects a paragraph and begins a one-minute typing challenge. Letters appear in 3D space and react visually as you type. The game gives a fun and slightly gamified way to practice typing speed.
-  </p>
+    <div class="header">
+      <h1>⌨️ 3D Typing Test</h1>
+      <div class="meta-info">
+        <div class="meta-item"><span class="meta-label">Platform:</span> WebGL / Unity</div>
+        <div class="meta-item"><span class="meta-label">Date:</span> June 2025</div>
+        <div class="meta-item"><span class="meta-label">Status:</span> <span class="status-live">Live</span></div>
+      </div>
+    </div>
 
-  <p><strong>Features:</strong></p>
-  <ul>
-    <li>Selectable paragraphs</li>
-    <li>1-minute timed test</li>
-    <li>Floating 3D alphabet letters</li>
-    <li>WebGL browser play (no install)</li>
-  </ul>
+    <div class="section">
+      <h2>Project Overview</h2>
+      <p class="description">
+        3D Typing Test is a lightweight, browser-playable Unity WebGL game that turns a simple
+        typing exercise into a fun, gamified challenge. Players select a paragraph and race
+        against a one-minute timer while letters react visually in a 3D scene as they type.
+      </p>
+      <p class="description">
+        The project focuses on tight input handling, clean UI/UX, and instant browser
+        playability with no downloads or installs required.
+      </p>
+    </div>
 
-  <a class="button" href="https://mrabhisheq.github.io/Simple-3DTypingTest/" target="_blank">Play Now</a>
+    <div class="section">
+      <h2>Key Features</h2>
+      <ul class="feature-list">
+        <li><strong>Selectable Paragraphs:</strong> Multiple text samples to keep each run fresh</li>
+        <li><strong>60-Second Timed Challenge:</strong> Fast, replayable typing sessions</li>
+        <li><strong>Floating 3D Alphabet:</strong> Letters animate in 3D space as you type</li>
+        <li><strong>Live WPM & Accuracy Tracking:</strong> Real-time feedback on performance</li>
+        <li><strong>Instant Browser Play:</strong> No install, runs directly via WebGL</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Technical Stack</h2>
+      <div class="tech-stack">
+        <div class="tech-badge">Unity Engine</div>
+        <div class="tech-badge">WebGL</div>
+        <div class="tech-badge">C#</div>
+        <div class="tech-badge">TextMeshPro</div>
+        <div class="tech-badge">UI Toolkit</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>How It Works</h2>
+      <p class="description"><strong>1. Choose a Paragraph:</strong> Pick from a set of preloaded text samples.</p>
+      <p class="description"><strong>2. Start Typing:</strong> A 60-second timer begins as soon as you type the first character.</p>
+      <p class="description"><strong>3. Watch the Feedback:</strong> 3D letters animate and react to correct/incorrect input.</p>
+      <p class="description"><strong>4. Get Your Score:</strong> View your final words-per-minute and accuracy at the end.</p>
+    </div>
+
+    <div class="section">
+      <h2>Try It Out</h2>
+      <p class="description">Test your typing speed in a fun 3D environment right in your browser.</p>
+      <div class="button-group">
+        <a class="button" href="https://mrabhisheq.github.io/Simple-3DTypingTest/" target="_blank">🚀 Play Now</a>
+        <a class="button button-secondary" href="https://github.com/MrAbhisheq" target="_blank">📂 View Source Code</a>
+      </div>
+    </div>
+
+  </div>
 
 </body>
 </html>
